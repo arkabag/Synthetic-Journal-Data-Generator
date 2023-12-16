@@ -1,0 +1,16 @@
+{
+    "fields": [
+        {
+            "label": "Outside Temperature",
+            "type": "temperature",
+            "unit": "fahrenheit",
+            "value": 75.0
+        },
+        {
+            "label": "Wakeup Time",
+            "type": "datetime",
+            "unit": "unix_timestamp",
+            "value": 1699114039
+        }
+    ]
+}

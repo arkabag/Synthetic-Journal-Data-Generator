@@ -1,0 +1,65 @@
+{
+    "fields": [
+        {
+            "label": "Current Weight",
+            "type": "weight",
+            "unit": "lbs",
+            "value": 480
+        },
+        {
+            "label": "Bench Press",
+            "type": "workout_weight_reps",
+            "weight_unit": "lbs",
+            "sets": [
+                {
+                    "weight": 135,
+                    "reps": 10
+                },
+                {
+                    "weight": 135,
+                    "reps": 9
+                },
+                {
+                    "weight": 135,
+                    "reps": 8
+                }
+            ]
+        },
+        {
+            "label": "Weighted Planks",
+            "type": "workout_weight_time",
+            "weight_unit": "lbs",
+            "time_unit": "seconds",
+            "sets": [
+                {
+                    "weight": 25,
+                    "time": 60
+                },
+                {
+                    "weight": 25,
+                    "time": 60
+                },
+                {
+                    "weight": 25,
+                    "time": 30
+                }
+            ]
+        },
+        {
+            "label": "Fast Runs",
+            "type": "workout_distance_time",
+            "distance_unit": "miles",
+            "time_unit": "seconds",
+            "sets": [
+                {
+                    "distance": 0.5,
+                    "time": 180
+                },
+                {
+                    "distance": 0.5,
+                    "time": 200
+                }
+            ]
+        }
+    ]
+}
